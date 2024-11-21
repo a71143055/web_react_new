@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NameForm from "./chp11/NameForm";
 import NameRequestForm from "./chp11/NameRequestForm";
+import SignUp from "./chp11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NameRequestForm />
+    <SignUp />
   </React.StrictMode>
 );
 
