@@ -8,11 +8,12 @@ import NameRequestForm from "./chp11/NameRequestForm";
 import SignUp from "./chp11/SignUp";
 import Calculator from "./chp12/Calculator";
 import "./chp12/DistanceConverter.module.css"
+import ProfileCard from "./chp13/ProfileCard";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 );
 
