@@ -9,11 +9,12 @@ import SignUp from "./chp11/SignUp";
 import Calculator from "./chp12/Calculator";
 import "./chp12/DistanceConverter.module.css"
 import ProfileCard from "./chp13/ProfileCard";
+import AirApp from "./air/imgs/AirApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <AirApp />
   </React.StrictMode>
 );
 
