@@ -1,8 +1,8 @@
 import React from 'react';
 import Card from './Card'
-import img1 from '../imgs/img1.png'
-import img2 from '../imgs/img_2.png'
-import img3 from '../imgs/img_3.png'
+import img1 from '../imgs/img1.jpg'
+import img2 from '../imgs/img2.png'
+import img3 from '../imgs/img3.png'
 
 const listing = [
     {
@@ -13,7 +13,7 @@ const listing = [
     },
     {
         id : 2,
-        title : "제주도 바다 뷰 레스토랑",
+        title : "제주도 숲속 뷰 레스토랑",
         price : 150000,
         imageUrl: `${img2}`
     },

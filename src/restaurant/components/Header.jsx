@@ -3,7 +3,7 @@ import React from 'react';
 function Header() {
     return (
         <header className="header">
-            <div className="logo">Airbnb</div>
+            <div className="logo">DiningTable.com</div>
             <nav>
                 <a href="/">홈</a>
                 <a href="/experiences">체험</a>

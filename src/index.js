@@ -10,11 +10,12 @@ import Calculator from "./chp12/Calculator";
 import "./chp12/DistanceConverter.module.css"
 import ProfileCard from "./chp13/ProfileCard";
 import AirApp from "./air/imgs/AirApp";
+import RestaurantApp from "./restaurant/imgs/RestaurantApp";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AirApp />
+    <RestaurantApp />
   </React.StrictMode>
 );
 

@@ -2,9 +2,9 @@ import React from 'react';
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import CardContainer from "../components/CardContainer";
-import './AirApp.css';
+import './RestaurantApp.css';
 
-function AirApp() {
+function RestaurantApp() {
     return (
         <div className="App">
             <Header/>
@@ -14,4 +14,4 @@ function AirApp() {
     );
 }
 
-export default AirApp;
+export default RestaurantApp;

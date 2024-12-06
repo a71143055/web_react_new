@@ -8,7 +8,7 @@ function Card(props) {
             <img src={imageUrl} alt={title} />
             <h3>{title}</h3>
             <p>￦{price.toLocaleString()}</p>
-            <p>★ {rating}</p>
+            <p>★★★★★ {rating}</p>
         </div>
     );
 }
